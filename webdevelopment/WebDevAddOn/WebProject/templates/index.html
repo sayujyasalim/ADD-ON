@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <title>Index Page</title>
+
+    <head>
+        <style>
+            .myDiv 
+            {
+                border: 5px outset black;
+                background-color: rgb(181, 230, 173);
+                text-align: center;
+            }
+            p.a 
+            {
+                font-family: "Times New Roman", Times, serif;
+            }
+            p.b 
+            {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="myDiv">
+            <h1 class ="a"><b>ADD ON COURSE</b></h1>
+            <p>PYTHON WEB DEVELOPMENT</p> 
+            <!-- {{message}} -->
+            <a href="/contact">Contact </a> 
+            <BR>
+            <a href="{% url 'login' %}">Login</a>
+            <p>SAYUJYA SALIM</p>
+        </div>
+       
+    </body>
+
+</html>
